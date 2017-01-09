@@ -1,0 +1,255 @@
+/*--------CSS RESET---------*/
+
+
+*{padding: 0;
+margin: 0;
+font-size:100%;
+line-height; 1em}
+
+body {width:85%;
+font-family: Inconsolata;
+margin: auto;
+font-size: 125%;
+background-color: white;
+color: #333;
+line-height: 1.8em;
+}
+
+
+
+/*---------TYPOGRAPHY----------*/
+
+
+
+h1, h2, h3 {
+    font-weight: normal;
+    color: black;
+    text-align:center;}
+p, li {
+margin-bottom: 3em;
+    line-height: 1.5;
+}
+
+h1 {font-family: 'Fjalla One', sans-serif;;
+    font-size: 4em;
+margin-top: 26%;
+margin-bottom: 26%;
+line-height: 2;
+    
+border-top: 8px solid yellow;
+border-bottom: 8px solid yellow;
+    border-left: 8px solid yellow;
+        border-right: 8px solid yellow;
+border-top-left-radius: 100px;
+border-top-right-radius: 100px}
+
+h2 {font-size: 2.25em;
+margin-bottom: 1em;
+border-top: 4px solid yellow;
+border-bottom: 4px solid yellow;
+    border-left: 4px solid yellow;
+        border-right: 4px solid yellow;
+line-height: 2em}
+
+header h2 {
+
+    font-size 1.8em;
+    color: #333;
+}
+
+hgroup {
+    margin-bottom: 3em;
+}
+
+.intro {font-size: 1.1em;
+line-height: 1.5em;
+margin-left: auto;
+margin-right: auto}
+
+blockquote {
+    width:800px;
+margin-left:auto;
+    margin-right:auto;
+    padding-bottom: 1em;
+
+    font-size: 1.5em;
+    line-height: 1.4em;
+
+    hanging-punctuation: first;
+    text-indent: -0.45em;
+    color: #777;
+        text-align:centerborder-top-left-radius: 100px;
+}
+
+blockquote cite {font-size: .75em;}
+
+.anchor {text-transform:uppercase;}
+
+.leader{text-transform: uppercase}
+
+
+p {width:800px;
+margin-left:auto;
+    margin-right:auto;
+text-align:justify;
+padding-bottom:0em}
+
+
+
+
+/*------------ NAV ----------*/
+
+
+nav {padding: 1em 0;
+border-top: 4px solid yellow;
+border-bottom: 4px solid yellow;
+    border-left: 4px solid yellow;
+        border-right: 4px solid yellow;
+margin-bottom: 4em;
+ color: black;
+}
+
+nav ul {
+    text-align:center;
+    text-transform:uppercase;
+    letter-spacing: 2px;
+    color:black;
+    
+}
+
+nav ul li {
+    display:inline;
+    margin: 10px;
+font-size: .9em;
+color: black}
+
+nav a:hover {
+    opacity:0.5
+    
+}
+
+/*--------- IMAGES ----------*/
+
+img {
+    display:block;
+    margin: auto;
+    padding: 0 0 2em 0;
+    max-width:76%;
+        max-height:500px;
+}
+
+img .aiga {max-height: 5px}
+
+   .socialmedia li {display:inline-block;
+       text-align: center;
+        margin-left: 5em;
+    margin-right: ;
+}
+.socialmedia ul {margin-left: 0px;
+
+border-top: 8px solid yellow;
+border-bottom: 8px solid yellow;
+    border-left: 8px solid yellow;
+        border-right: 8px solid yellow;
+border-bottom-left-radius: 100px;
+border-bottom-right-radius: 100px;
+margin-bottom:500px}
+    
+    .socialmedia li:hover {opacity:0.8}
+
+.socialmedia li {
+margin-bottom: 20px;
+margin-top:40px;
+    padding-left:6.5%
+}
+.social media ul li {margin-left:auto;
+margin-right: auto;
+ }
+
+
+/*---------------------FOOTER------------------------*/
+
+footer {
+    margin: 3em 0;
+    font-size 75em;
+    line-height: 1.6em;
+}
+
+<!---------------------------------------TABLET------------------------------------------>
+
+
+@media (max-width: 50em)    {
+    
+    body { width:85%;
+    }
+    
+    article { width: 95%;
+        padding: 0.5em;
+    }
+}
+    
+<!-----------------------------SMARTPHONE------------------------------>
+@media (max-width: 50em) {
+    body {
+        margin: auto 0;
+        width: 100%;
+            font-size:110%;
+   
+}
+    
+   .bibliography table {display:block;
+    margin: 4em auto;
+    width:50%;
+    display: table;
+    border-collapse: collapse;
+    padding:1em 1em 1em 3em;
+    border-spacing: 2px
+    
+}
+    
+    
+    table, td{
+    font-size:1em;
+    margin-left: }
+    
+    
+    
+    
+    
+    article {width:90%;}
+    
+    h1 {font-size: 3em;
+    line-height: 1,3}
+    
+    
+    blockquote p {font-size: 1.25em;
+        ;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
